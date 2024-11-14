@@ -1,0 +1,13 @@
+compatibility_date = "2024-11-14"
+
+[build]
+command = "npx @cloudflare/next-on-pages@1"
+upload = { format = "modules" }
+output_directory = ".vercel/output/static"
+
+[site]
+bucket = "./.vercel/output/static"
+entry-point = "landing"
+
+[compatibility_flags]
+- "nodejs_compat"
