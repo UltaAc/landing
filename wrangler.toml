@@ -10,4 +10,4 @@ bucket = "./.vercel/output/static"
 entry-point = "landing"
 
 [compatibility_flags]
-- "nodejs_compat"
+- ["nodejs_compat"]
