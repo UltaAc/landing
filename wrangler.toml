@@ -9,5 +9,4 @@ output_directory = ".vercel/output/static"
 bucket = "./.vercel/output/static"
 entry-point = "landing"
 
-[compatibility_flags]
-- ["nodejs_compat"]
+compatibility_flags = ["nodejs_compat"]
